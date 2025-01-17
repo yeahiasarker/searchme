@@ -8,10 +8,9 @@ SearchMe is an intelligent file search system that combines powerful file indexi
 
 ## Features ✨
 
-- 🗂️ Recursive file indexing with metadata extraction
-- 🔍 Semantic search capabilities
-- 🤖 AI-powered conversational interface
-- 📊 Detailed indexing statistics and progress tracking
-- 🎵 Rich metadata extraction for various file types (PDF, DOCX, images, audio)
-- 🚫 Configurable file/directory exclusions
-- 💡 Smart handling of system and hidden files
+- Recursive file indexing with metadata extraction
+- Semantic search capabilities
+- Ollama-powered conversational interface
+- Rich metadata extraction for various file types (PDF, DOCX, images, audio)
+- onfigurable file/directory exclusions
+- Smart handling of system and hidden files
