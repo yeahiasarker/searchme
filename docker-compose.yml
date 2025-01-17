@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  searchme:
+    build: .
+    volumes:
+      - ${SEARCH_PATH:-/data}:/data:ro  # Mount directory to search (read-only)
+      - search_index:/root/.file_search_index  # Persist search index
+    environment:
+      - OLLAMA_HOST=ollama
+    depends_on:
+      - ollama
+    command: searchme --index --directory /data  # Default to indexing mounted directory
+
+  ollama:
+    image: ollama/ollama:latest
+    volumes:
+      - ollama_data:/root/.ollama
+    ports:
+      - "11434:11434"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]  # Enable if GPU available
+
+volumes:
+  search_index:  # Persistent volume for search index
+  ollama_data:   # Persistent volume for Ollama models 

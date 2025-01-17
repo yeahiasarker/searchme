@@ -1,3 +1,7 @@
+# Version control
+.git
+.gitignore
+
 # Python
 __pycache__/
 *.py[cod]
@@ -40,6 +44,11 @@ ENV/
 .file_search_index/
 *.faiss
 *.pkl
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
 
 # OS specific
 .DS_Store

@@ -1,0 +1,11 @@
+faiss-cpu
+sentence-transformers
+requests
+numpy
+python-magic
+mutagen
+Pillow
+PyPDF2
+python-docx
+tqdm 
+pdfminer.six 
