@@ -14,3 +14,8 @@ SearchMe is an intelligent file search system that combines powerful file indexi
 - Rich metadata extraction for various file types (PDF, DOCX, images, audio)
 - onfigurable file/directory exclusions
 - Smart handling of system and hidden files
+
+## Tech Stack
+- Langchain (agentic system)
+- Faiss (vector database)
+- Ollama (mistral - local llm)
