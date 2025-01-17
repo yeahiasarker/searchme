@@ -19,3 +19,6 @@ SearchMe is an intelligent file search system that combines powerful file indexi
 - Langchain (agentic system)
 - Faiss (vector database)
 - Ollama (mistral - local llm)
+
+## License
+MIT License
